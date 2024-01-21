@@ -41,13 +41,5 @@ def sms():
 
     return render_template('sms.html')
 
-@app.route('/gmail')
-def gmail():
-    return render_template('gmail.html')
-
-@app.route('/whatsapp')
-def whatsapp():
-    return render_template('whatsapp.html')
-
 if __name__ == '__main__':
     app.run(debug=True)

@@ -20,7 +20,7 @@
         {% endwith %}
 
         <h1>Schedule SMS</h1>
-        <form action="/sms" method="post">
+        <form action="/sms" method="post" onsubmit="return validatePhoneNumber();">
             <div class="form-group">
                 <label for="messageBody">Message Body:</label>
                 <textarea id="messageBody" name="messageBody" rows="4" required></textarea>
@@ -38,5 +38,21 @@
             </div>
         </form>
     </div>
+
+    <script>
+        function validatePhoneNumber() {
+            var phoneNumberRegex = /^\+\d{1,3}\d{6,14}$/;
+
+            var phoneNumberInput = document.getElementById('phoneNumber');
+
+            var phoneNumber = phoneNumberInput.value.trim();
+
+            if (!phoneNumberRegex.test(phoneNumber)) {
+                alert('Please enter a valid phone number with a country code.');
+                return false;
+            }
+            return true;
+        }
+    </script>
 </body>
 </html>
