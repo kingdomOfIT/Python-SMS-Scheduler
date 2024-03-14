@@ -4,7 +4,7 @@
   <br /> -->
   <div>
     <img src="https://img.shields.io/badge/-Python-black?style=for-the-badge&logoColor=white&logo=python&color=4584b6" alt="python" />
-    <img src="https://img.shields.io/badge/-CSS-black?style=for-the-badge&logoColor=white&logo=twilio&color=FF0000" alt="twilio" />
+    <img src="https://img.shields.io/badge/-Twilio-black?style=for-the-badge&logoColor=white&logo=twilio&color=FF0000" alt="twilio" />
     <img src="https://img.shields.io/badge/-HTML-black?style=for-the-badge&logoColor=white&logo=html5&color=e34c26" alt="html5" />
     <img src="https://img.shields.io/badge/-CSS-black?style=for-the-badge&logoColor=white&logo=css3&color=2965f1" alt="css3" />
   </div>
